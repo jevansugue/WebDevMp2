@@ -108,19 +108,19 @@ a:hover {
 	background-color: white;
 	color: black;
 	font-family: times;
-	font-size: 11px;
+	font-size: 12px;
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	position: absolute;
 	left: 0em;
-	top: 21.8em;
+	top: 19.8em;
 	border-bottom: 1px #24242B solid;
 }
 
 #navlinks {
 	padding: 0.8em 0em;
 	word-spacing: 12em;
-	margin-left: 24em;
+	margin-left: 18em;
 }
 
 /*MAIN*/
@@ -129,11 +129,10 @@ a:hover {
 	background-color: white;
 	height: auto;
 	width: 70em;
-	margin-right: auto;
-	margin-left: auto;
+	left: 6.5em;
 	margin-top: 16.7em;
 	padding: 1em;
-	
+	position: absolute;	
 }
 
 #header {
@@ -141,5 +140,14 @@ a:hover {
 	margin: 1.5em auto;
 	left: 10.5em;
 	position: absolute;
+	
+}
+
+/*TEXT DISPLAY*/
+
+h1 {
+
+	font-family: Oswald;
+	font-size: 20px;
 	
 }
