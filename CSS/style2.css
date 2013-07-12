@@ -1,0 +1,115 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+	background-attachment: fixed;
+	background-image: url(../imgs/bg2.png);
+	background-repeat: repeat;
+	overflow-x: hidden;
+	
+}
+
+body {
+
+	overflow-x: hidden;
+	
+}
+
+/*FONTS*/
+
+@font-face {
+  font-family: "Track";
+  src: url(../fonts/Track.OTF) format("opentype");
+}
+
+@font-face {
+  font-family: "Intro";
+  src: url(../fonts/Intro.OTF) format("opentype");
+}
+
+
+/*TOP BAR*/
+
+.topbar {
+	background-color: #24242B;
+	width: 90em;
+	height: 15em;
+	color: white;
+	position: absolute;
+	top: 0em;
+	left: 0em;
+}
+
+#name {
+
+	color: white;
+	letter-spacing: 1px;
+	margin: 1em 0;
+	position: relative;
+}
+
+#and {
+
+	text-align: center;
+	font-size: 9em;
+	font-family: Intro;
+}
+
+/*#name td {
+	
+	text-align: center;
+	font-size: 1.5em;
+	width: 5em;
+	height: 5em;
+	padding: 0.5em;
+	margin: 0em 1em;
+	vertical-align: middle;
+	display: inline-block;
+}
+
+.blue {
+
+	background-color:#2ad8d8;
+	
+}
+
+.purple {
+
+	background-color:#d82ad8;
+	
+}
+
+.green {
+
+	background-color:#d8d82a;
+	
+	
+}*/
+
+
+
+/*NAV*/
+
+#nav {
+
+	width: 90em;
+	background-color: white;
+	color: black;
+	font-family: times;
+	font-size: 11px;
+	text-transform: uppercase;
+	padding: 0.3em 0.4em;
+	position: relative;	
+}
+
+#nav:hover {
+
+	color: #2ad8d8;
+	
+}
+
+#nav li {
+
+	display: inline;
+	
+}

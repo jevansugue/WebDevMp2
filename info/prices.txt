@@ -1,0 +1,1 @@
+blueprint 20 x 30 costs 25 pesos each whilst the 24 x 36 costs 40 each.
