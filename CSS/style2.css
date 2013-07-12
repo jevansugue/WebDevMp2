@@ -135,3 +135,11 @@ a:hover {
 	padding: 1em;
 	
 }
+
+#header {
+
+	margin: 1.5em auto;
+	left: 10.5em;
+	position: absolute;
+	
+}
