@@ -124,3 +124,14 @@ a:hover {
 }
 
 /*MAIN*/
+
+#main {
+	background-color: white;
+	height: auto;
+	width: 70em;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 16.7em;
+	padding: 1em;
+	
+}
