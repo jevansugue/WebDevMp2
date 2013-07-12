@@ -86,30 +86,41 @@ body {
 	
 }*/
 
+/*LINKS*/
 
+a, a:active, a:visited {
 
+	text-decoration: none;
+	color: inherit;	
+}
+
+a:hover {
+
+	color: #22b9b9;
+	
+}
 /*NAV*/
 
 #nav {
 
-	width: 90em;
+	width: 140em;
+	height: 3em;
 	background-color: white;
 	color: black;
 	font-family: times;
 	font-size: 11px;
+	letter-spacing: 3px;
 	text-transform: uppercase;
-	padding: 0.3em 0.4em;
-	position: relative;	
+	position: absolute;
+	left: 0em;
+	top: 21.8em;
+	border-bottom: 1px #24242B solid;
 }
 
-#nav:hover {
-
-	color: #2ad8d8;
-	
+#navlinks {
+	padding: 0.8em 0em;
+	word-spacing: 12em;
+	margin-left: 24em;
 }
 
-#nav li {
-
-	display: inline;
-	
-}
+/*MAIN*/
