@@ -118,8 +118,8 @@ a:hover {
 }
 
 #navlinks {
-	position: absolute;
-	min-width: 800px;
+	position: static;
+	min-width: 1000px;
 	padding: 0.8em 0em;
 	margin: 0em auto;
 	
