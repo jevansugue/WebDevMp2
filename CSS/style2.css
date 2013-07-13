@@ -132,11 +132,13 @@ a:hover {
 #main {
 	background-color: white;
 	height: auto;
-	width: 73em;
-	left: 5.2em;
+	width: 65em;
+	left: 8.5em;
 	margin-top: 16.7em;
 	padding: 1em;
-	position: absolute;	
+	position: absolute;
+	border-left: 1px #ededed solid;
+	border-right: 1px #ededed solid;	
 }
 
 #header {
@@ -306,3 +308,6 @@ h1:hover {
 	color: #ededed;
 	
 }
+
+/*ORDER*/
+
