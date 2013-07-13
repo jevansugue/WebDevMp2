@@ -102,7 +102,7 @@ a:hover {
 
 #nav {
 
-	width: 140em;
+	width: 100%;
 	height: 3em;
 	background-color: white;
 	color: black;
@@ -114,17 +114,21 @@ a:hover {
 	left: 0em;
 	top: 19.8em;
 	border-bottom: 1px #ededed solid;
+
 }
 
 #navlinks {
+	position: absolute;
+	min-width: 800px;
 	padding: 0.8em 0em;
-	margin-left: 15em;
+	margin: 0em auto;
+	
 }
 
 #navlinks a {
 
-	margin: 0em 5em;
-	
+	margin: 0em 4em;
+
 }
 
 /*MAIN*/
@@ -311,3 +315,22 @@ h1:hover {
 
 /*ORDER*/
 
+#order table {
+
+	padding: 2em;
+	margin: 0em auto;
+	
+}
+
+#order td {
+
+	padding: 1.5em;
+	font-size: 12px;
+	
+}
+
+#order td.left {
+
+	border-left: 1px #ededed solid;
+	
+}
