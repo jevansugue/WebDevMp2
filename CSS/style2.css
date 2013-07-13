@@ -114,12 +114,12 @@ a:hover {
 	position: absolute;
 	left: 0em;
 	top: 19.8em;
-	border-bottom: 1px #24242B solid;
+	border-bottom: 1px #ededed solid;
 }
 
 #navlinks {
 	padding: 0.8em 0em;
-	margin-left: 18em;
+	margin-left: 15em;
 }
 
 #navlinks a {
