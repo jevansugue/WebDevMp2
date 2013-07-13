@@ -165,13 +165,14 @@ h1 {
 	display: inline-block;
 	font-weight: normal;
 	border-bottom: 3px #22b9b9 solid;
-	cursor: pointer;
+
 }
 
 h1:hover {
 
 	color: #b9b922;
 	border-bottom: 3px #b9b922 solid;
+
 }
 
 /*ADMIN CP*/
@@ -216,8 +217,43 @@ h1:hover {
 
 #admin-func {
 
+	padding: 1em;
+	
+}
+
+
+#admin a {
+
+	padding: 0.3em;
 	font-family: Amaranth;
 	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: normal;
+	display: inline;
+	margin: 0em 0.5em;
+	cursor: pointer;
+	
+}
+
+
+#admin a.purple {
+
+	color: #d82ad8;
+	border-bottom: 2px #d82ad8 solid;
+	
+}
+
+#admin a.green {
+
+	color: #b9b922;
+	border-bottom: 2px #b9b922 solid;
+	
+}
+
+#admin a.purple:hover, #admin a.green:hover {
+
+	color: #22b9b9;
+	border-bottom: 2px #22b9b9 solid; 
 	
 }
 

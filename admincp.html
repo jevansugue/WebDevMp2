@@ -39,9 +39,6 @@
 	<div id="admin">
 	
     	<h1>ADMINISTRATOR CONTROL PANEL</h1>
-        <br />
-        
-        <center><div id="admin-func">ADMIN ACTIONS / FUNCTIONS HERE</div></center>
         <br /><br />
         
     	<!--START TABLES WITH ORDERS-->
@@ -50,7 +47,7 @@
             
             	<!--HEADINGS-->
             	<tr>
-            		
+            		<td class="heading">&nbsp;</td>
                     <td class="heading">ORDER NO.</td>
                     <td class="heading">FILES</td>
                     <td class="heading">PAPER SIZE</td>
@@ -60,13 +57,14 @@
                     <td class="heading">ORDER DATE</td>
                     <td class="heading">DATE DUE</td>
                     <td class="heading">CUSTOMER NAME</td>
-                    <td class="heading">STATUS</td>
+                    <td class="heading">COMPLETED?</td>
                         
                 </tr>
             
             	<!--CONTENTS-->
                 <tr>
-                
+                	
+                    <td class="info"><input type="checkbox" name="vehicle" value="order-no"></td>
                 	<td class="info">1</td>
                     <td class="info">essay1.doc</td>
                     <td class="info">8x11 in.</td>
@@ -76,12 +74,13 @@
                     <td class="info">07-13-2013</td>
                     <td class="info">07-17-2013</td>
                     <td class="info">Harry Potter</td>
-                    <td class="info">not done</td>
+                    <td class="info">no</td>
                 
                 </tr>
                 
                 <tr>
                 
+                	<td class="info"><input type="checkbox" name="vehicle" value="order-no"></td>
                 	<td class="info">2</td>
                     <td class="info">revision.doc</td>
                     <td class="info">8x11 in.</td>
@@ -91,12 +90,13 @@
                     <td class="info">07-14-2013</td>
                     <td class="info">07-20-2013</td>
                     <td class="info">Hermione Granger</td>
-                    <td class="info">not done</td>
+                    <td class="info">no</td>
                 
                 </tr>
                 
                 <tr>
                 
+                	<td class="info"><input type="checkbox" name="vehicle" value="order-no"></td>
                 	<td class="info">3</td>
                     <td class="info">fail.doc</td>
                     <td class="info">8x11 in.</td>
@@ -106,13 +106,27 @@
                     <td class="info">07-14-2013</td>
                     <td class="info">07-16-2013</td>
                     <td class="info">Ron Weasley</td>
-                    <td class="info">not done</td>
+                    <td class="info">no</td>
                 
                 </tr>
                 
             </table>
     		</center>
     	<!--END TABLES-->
+    
+    		<!--START ADMIN FUNCTIONS-->
+            
+			<br />
+            
+             <center><div id="admin-func">
+             
+             	<a class="purple">MARK AS COMPLETE</a>
+                <a class="green">EDIT DETAILS</a>
+             
+             
+             </div></center>
+            
+            <!--END ADMIN FUNCTIONS-->
     
     </div>
 	<!--END ADMIN ID-->
