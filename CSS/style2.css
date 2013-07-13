@@ -221,3 +221,53 @@ h1:hover {
 	font-size: 12px;
 	
 }
+
+/*USER CP*/
+
+#usercp table {
+
+	border: none;
+	width: auto;	
+	
+}
+
+#usercp td {
+
+	padding: 1.8em;
+	font-family: Times;
+	color: #24242B;
+	text-align: left;
+	
+}
+
+#usercp h5 {
+
+	padding: 1.8em;
+	font-family: Amaranth;
+	letter-spacing: 1px;
+	font-size: 12px;
+	color: #24242B;
+	display: inline;
+	font-weight: normal;
+}
+
+#change a {
+
+	color: #d82ad8;
+	font-family: Amaranth;
+	font-size: 12px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	border-bottom: 2px #d82ad8 solid;
+	padding: 0.3em;
+}
+
+.line {
+
+	letter-spacing: -2px;
+	display: inline;
+	font-size: 12px;
+	font-family: Amaranth;
+	color: #ededed;
+	
+}
