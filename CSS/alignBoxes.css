@@ -28,11 +28,25 @@
 
 }
 
-.formContainer
+.formContainer, .loginContainer
 {
 	border: 1px solid black;
-	height: 20em;
+	height: 29em;
 	padding: .5em;
 	width: 31em;
 	display: inline-block;
+}
+
+
+.loginContainer
+{
+	height: 10em;
+
+}
+.subNR
+{
+	width: 5em;
+	
+	
+
 }
