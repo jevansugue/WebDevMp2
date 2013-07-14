@@ -298,6 +298,8 @@ h1:hover {
 
 /*ORDER*/
 
+/*MAIN DIV*/
+
 #order {
 
 	padding: 2em;
@@ -310,6 +312,7 @@ h1:hover {
 	
 }
 
+/*DEFAULT HEADING 2*/
 #order h2 {
 
 	font-family: Amaranth;
@@ -324,6 +327,7 @@ h1:hover {
 
 }
 
+/*HEADING ON THE LEFT - UNREGISTERED SIDE*/
 #order h2.unreg {
 	font-family: Amaranth;
 	color: #b9b922;
@@ -332,6 +336,7 @@ h1:hover {
 	
 }
 
+/*WHAT HAPPENS ON HEADING ON THE LEFT WHEN YOU HOVER*/
 #order h2.unreg:hover {
 
 	color: #22b9b9;
@@ -340,7 +345,9 @@ h1:hover {
 	
 }
 
+/*HEADING 2 ON THE RIGHT SIDE - LOG IN*/
 #order h2.log {
+	
 	font-family: Amaranth;
 	color: #22b9b9;
 	border-bottom: 3px #22b9b9 solid;
@@ -348,6 +355,7 @@ h1:hover {
 	
 }
 
+/*WHAT HAPPENS TO HEADING 2 ON THE RIGHT SIDE WHEN YOU HOVER*/
 #order h2.log:hover {
 
 	color: #b9b922;
@@ -356,6 +364,7 @@ h1:hover {
 	
 }
 
+/*CONTAINER FOR THE LEFT SIDE*/
 #left {
 	float: left;
 	width: 35em;
@@ -364,6 +373,7 @@ h1:hover {
 	font-family: Amaranth;
 }
 
+/*CONTAINER FOR THE RIGHT SIDE*/
 #right {
 	float: right;
 	width: 21em;
