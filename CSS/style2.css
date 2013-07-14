@@ -320,7 +320,7 @@ h1:hover {
 }
 
 /*DEFAULT HEADING 2*/
-#order h2 {
+h2 {
 
 	font-family: Amaranth;
 	font-size: 18px;
@@ -335,7 +335,7 @@ h1:hover {
 }
 
 /*HEADING ON THE LEFT - UNREGISTERED SIDE*/
-#order h2.unreg {
+h2.unreg {
 	font-family: Amaranth;
 	color: #b9b922;
 	border-bottom: 3px #b9b922 solid;
@@ -344,7 +344,7 @@ h1:hover {
 }
 
 /*WHAT HAPPENS ON HEADING ON THE LEFT WHEN YOU HOVER*/
-#order h2.unreg:hover {
+h2.unreg:hover {
 
 	color: #22b9b9;
 	border-bottom: 3px #22b9b9 solid;
@@ -353,7 +353,7 @@ h1:hover {
 }
 
 /*HEADING 2 ON THE RIGHT SIDE - LOG IN*/
-#order h2.log {
+h2.log {
 	
 	font-family: Amaranth;
 	color: #22b9b9;
@@ -363,7 +363,7 @@ h1:hover {
 }
 
 /*WHAT HAPPENS TO HEADING 2 ON THE RIGHT SIDE WHEN YOU HOVER*/
-#order h2.log:hover {
+h2.log:hover {
 
 	color: #b9b922;
 	border-bottom: 3px #b9b922 solid;

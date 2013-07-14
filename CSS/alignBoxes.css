@@ -2,7 +2,6 @@
     width: 15em;
     float: left;
     text-align: right;
-
 	display: inline-block;
 }
 .right {
@@ -30,7 +29,7 @@
 
 .formContainer, .loginContainer
 {
-	border: 1px solid black;
+
 	height: 29em;
 	padding: .5em;
 	width: 31em;
