@@ -14,18 +14,6 @@ body {
 	
 }
 
-/*FONTS*/
-
-@font-face {
-  font-family: "Track";
-  src: url(../fonts/Track.OTF) format("opentype");
-}
-
-@font-face {
-  font-family: "Intro";
-  src: url(../fonts/Intro.OTF) format("opentype");
-}
-
 
 /*TOP BAR*/
 
@@ -82,7 +70,7 @@ a:hover {
 
 #nav a {
 	border: none;
-	margin: 0em 4em;
+	margin: 0em 3em;
 	padding: 1em;
 	color: white;
 	background-color: #24242B; 
@@ -182,9 +170,14 @@ h1:hover {
 	
 }
 
+#admin td {
+
+	padding: 2em 0.9em;
+	
+}
+
 #admin td.heading {
 
-	padding: 1.8em;
 	font-family: Amaranth;
 	letter-spacing: 1px;
 	font-size: 12px;
@@ -194,7 +187,6 @@ h1:hover {
 
 #admin td.info {
 
-	padding: 1.8em;
 	font-family: Times;
 	color: #24242B;
 	text-align: center;
@@ -310,6 +302,9 @@ h1:hover {
 #order {
 
 	padding: 1em;
+	color: #24242B;
+	font-size: 15px;
+	font-family: Times;
 }
 
 /*DEFAULT HEADING 2*/
@@ -332,6 +327,7 @@ h2.unreg {
 	font-family: Amaranth;
 	color: #b9b922;
 	border-bottom: 3px #b9b922 solid;
+	text-transform: uppercase;
 	
 	
 }

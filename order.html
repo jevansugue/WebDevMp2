@@ -2,16 +2,17 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <link rel="stylesheet" href="CSS/style2.css" />
+<link rel="stylesheet" href="CSS/order.css" />
 <link href='http://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet' type='text/css'>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>BLUEPRINT & GRAPHICS</title>
+<title>BLUEPRINT & GRAPHICS | ORDER</title>
 </head>
 
 <body>
 <div class="topbar">
 
 	<center>
-    	
+       
        <img id="header" src="imgs/header1.png"/>
        
     </center>
@@ -21,13 +22,13 @@
 <!--START NAV-->
 
 <div id="nav">
-	<div id="navlinks">
-    	<a href="">HOME</a>
-        <a href="">ABOUT</a>
-        <a href="">ORDER</a>
-        <a href="">CONTACT</a>
-    	<a href="">ACCOUNT</a>
-	</div>
+	<center>
+    	<a href="home.html" class='active'>HOME</a>
+        <a href="about.html" class='active'>ABOUT</a>
+        <a href="order.html" class='active'>ORDER</a>
+    	<a href="reg-log.html" class='active'>REGISTER/LOG-IN</a>
+        <a href="sitemap.html" class='active'>SITEMAP</a>
+	</center>
 </div>
 
 <!--END NAV-->
@@ -35,24 +36,98 @@
 <!--START MAIN-->
 <div id="main">
 
-	<!--START ORDER-->
-	<div id="order">
+	<!--START ADMIN ID-->
+	<div id="admin">
 	
-    	<div id="left">
+    	<h1>ORDERS PANEL</h1>
+        <br /><br />
         
-        	<h2 class="unreg" style="font-family: Amaranth">ORDER</h2>
-        	<br />FORMS HERE
-        </div>
-        
-        <div id="right">
-        
-        	<h2 class="log">REGISTERED</h2>
-        	<br />FORMS HERE
-        </div>
+    	<!--START TABLES WITH ORDERS-->
+    		<center>
+    		<table cellspacing="5" border="" rules="rows">
+            
+            	<!--HEADINGS-->
+            	<tr>
+            		
+                    <td class="heading">FILES</td>
+                    <td class="heading">PAPER SIZE</td>
+                    <td class="heading">COPIES</td>
+                    <td class="heading">COLOUR</td>
+                    <td class="heading">ORIENTATION</td>
+                    <td class="heading">DATE DUE</td>
+                        
+                </tr>
+            
+            	<!--CONTENTS-->
+                <tr>
+                	
+					<td class="info"><input type='file' class='uploadArea' required></input></td>
+                    <td class="info"><select>
+								<option select>Choose...</option>
+								<option> 8 x 11.5 </option>
+								<option> A4 </option>
+								<option> A3 </option>
+								<option> Long </option>
+							
+							</select></td>
+                    <td class="info"><input type='number' value='0' class='nums' required /></td>
+                    <td class="info"><select>
+								<option select>Choose...</option>
+								<option> Black & White </option>
+								<option> Coloured</option>
+						</select></td>
+                    <td class="info">
+                    	<select>
+								<option select>Choose...</option>
+								<option> Portrait </option>
+								<option> Landscape</option>
+						</select>
+                    </td>
+                    <td class="info"><input type='date' required /></td>
+                    
+                </tr>
+                
+                
+            </table><br /><br />
+            <input type="submit" value="Place Order">
+    		</center>
+            
+            <h1>YOUR ORDER</h1>
+            <center><br />
+            <table cellspacing="5" border="" rules="rows">
+            
+            	<!--HEADINGS-->
+            	<tr>
+            		
+                    <td class="heading">FILES</td>
+                    <td class="heading">PAPER SIZE</td>
+                    <td class="heading">COPIES</td>
+                    <td class="heading">COLOUR</td>
+                    <td class="heading">ORIENTATION</td>
+                    <td class="heading">DATE DUE</td>
+                        
+                </tr>
+            
+            	<!--CONTENTS-->
+                <tr>
+                	
+					<td class="info">file.doc</td>
+                    <td class="info">8 x 11.5</td>
+                    <td class="info">1</td>
+                    <td class="info">Black & White</td>
+                    <td class="info">Portrait</td>
+                    <td class="info">7-15-2013</td>
+                    
+                </tr>
+                
+                
+            </table></center><br /><br />
+    	<!--END TABLES-->
     
-	</div><!--END ORDER-->
-
-</div><!--END MAIN-->
-
+    </div>
+	<!--END ADMIN ID-->
+    
+</div>
+<!--END MAIN-->
 </body>
 </html>
