@@ -51,163 +51,49 @@
             	<!--HEADINGS-->
             	<tr>
             		
-                    <td class="heading">&nbsp;</td>
                     <td class="heading">FILES</td>
                     <td class="heading">PAPER SIZE</td>
                     <td class="heading">COPIES</td>
                     <td class="heading">COLOUR</td>
                     <td class="heading">ORIENTATION</td>
-                    <td class="heading">ORDER DATE</td>
                     <td class="heading">DATE DUE</td>
-                    <td class="heading">STATUS</td>
                         
                 </tr>
             
             	<!--CONTENTS-->
                 <tr>
                 	
-					<td class="heading">&nbsp;</td>
-                    <td class="info">essay1.doc</td>
-                    <td class="info">8x11 in.</td>
-                    <td class="info">1</td>
-                    <td class="info">black & white</td>
-                    <td class="info">portrait</td>
-                    <td class="info">07-13-2013</td>
-                    <td class="info">07-17-2013</td>
-					<td class="heading">&nbsp;</td>
-                
-                </tr>
-                
-                <tr>
-                	
-					<td class="heading">&nbsp;</td>
-                    <td class="info">essay1.doc</td>
-                    <td class="info">8x11 in.</td>
-                    <td class="info">1</td>
-                    <td class="info">black & white</td>
-                    <td class="info">portrait</td>
-                    <td class="info">07-13-2013</td>
-                    <td class="info">07-17-2013</td>
-					<td class="heading">&nbsp;</td>
-                
-                </tr>
-                
-                <tr>
-                	
-					<td class="heading">&nbsp;</td>
-                    <td class="info">essay1.doc</td>
-                    <td class="info">8x11 in.</td>
-                    <td class="info">1</td>
-                    <td class="info">black & white</td>
-                    <td class="info">portrait</td>
-                    <td class="info">07-13-2013</td>
-                    <td class="info">07-17-2013</td>
-					<td class="heading">&nbsp;</td>
-                
-                </tr>
-                
-            </table>
-    		</center>
-    	<!--END TABLES-->
-    
-    		<!--START ADMIN FUNCTIONS-->
-            
-			<br />
-            
-            
-			 
-			 <div id="admin-func">
-				<div class='uploadBar'>
-				 <table cellspacing="1" border="" rules="rows">
-					 <tr>
-						
-						<td class="info"><input type='file' class='uploadArea' required></td>
-						<td class="info">
-							<select>
-								<option select> </option>
+					<td class="info"><input type='file' class='uploadArea' required></input></td>
+                    <td class="info"><select>
+								<option select>Choose...</option>
 								<option> 8 x 11.5 </option>
 								<option> A4 </option>
 								<option> A3 </option>
 								<option> Long </option>
 							
-							</select>
-						
-						</td>
-						<td class="info">
-							<input type='number' value='0' class='nums' required />
-						</td>
-						<td class="info">
-						
-						<select>
-								<option select> </option>
+							</select></td>
+                    <td class="info"><input type='number' value='0' class='nums' required /></td>
+                    <td class="info"><select>
+								<option select>Choose...</option>
 								<option> Black&White </option>
 								<option> Coloured</option>
-						</select>
-						
-						
-						
-						
-						</td>
-						<td class="info">
-						<select class='reduceWidth' >
-								<option select> </option>
+						</select></td>
+                    <td class="info">
+                    	<select>
+								<option select>Choose...</option>
 								<option> Portrait </option>
-								<option> Land Scape</option>
+								<option> Landscape</option>
 						</select>
-						
-						</td>
-						<td class="info">
-						
-						
-						<input type='date' required />
-						
-						
-						</td>
-						<td class="info">
-						
-							<input type='submit'>
-						
-						</td>
-					
-					</tr>
-				 </table>
-				 </div>
-				
-			</div>
-			 
-			 
-		
-            
-            <!--END ADMIN FUNCTIONS-->
-    
-    		<span id="search" style="display: none">
-            
-            	<div id="search">
-            	SEARCH BY...
+                    </td>
+                    <td class="info"><input type='date' required /></td>
+                    
+                </tr>
                 
-                	<center><table cellspacing="50" cellpadding="10">
-                    	<tr>
-                		
-                        <td>
-                        	<form name="ordnum">
-							ORDER NO.: <input type="text" required="required" name="orderno"></input>
-                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OR<br /><br />
-                            <center><input type="submit" value="Submit"></center>
-							</form>
-                        </td>
                 
-                		<td>
-                        	<form name="custName">
-                    		CUSTOMER NAME: <input type="text" required="required" name="custname"></input>
-                    		</form>
-                            <br />
-                            <center><input type="submit" value="Submit"></center>
-                        </td>
-                    </tr>
-                    </table></center>
-                
-            	</div>
-            </span>
+            </table><br /><br />
+            <input type="submit" value="Place Order">
+    		</center>
+    	<!--END TABLES-->
     
     </div>
 	<!--END ADMIN ID-->
