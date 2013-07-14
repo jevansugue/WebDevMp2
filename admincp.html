@@ -2,6 +2,8 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <link rel="stylesheet" href="CSS/style2.css" />
+<script type="text/javascript" src="JS/display_hide.js"></script>
+<script type="text/javascript" src="JS/input_val.js"></script>
 <link href='http://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet' type='text/css'>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>BLUEPRINT & GRAPHICS | ADMIN CONTROL PANEL</title>
@@ -120,7 +122,7 @@
             
              <center><div id="admin-func">
              
-             	<a class="green">SEARCH</a>
+             	<a class="green" onClick="show('search')">SEARCH</a>
              	<a class="purple">MARK AS COMPLETE</a>
                 <a class="green">EDIT DETAILS</a>
                 <a class="purple">CANCEL</a>
@@ -130,6 +132,35 @@
              </div></center>
             
             <!--END ADMIN FUNCTIONS-->
+    
+    		<span id="search" style="display: none">
+            
+            	<div id="search">
+            	SEARCH BY...
+                
+                	<center><table cellspacing="50" cellpadding="10">
+                    	<tr>
+                		
+                        <td>
+                        	<form name="ordnum">
+							ORDER NO.: <input type="text" name="orderno">
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OR<br /><br />
+                            <center><input type="submit" value="Submit"></center>
+							</form>
+                        </td>
+                
+                		<td>
+                        	<form>
+                    		CUSTOMER NAME: <input type="text" name="custname">
+                    		</form>
+                            <br />
+                            <center><input type="submit" value="Submit"></center>
+                        </td>
+                    </tr>
+                    </table></center>
+                
+            	</div>
+            </span>
     
     </div>
 	<!--END ADMIN ID-->
