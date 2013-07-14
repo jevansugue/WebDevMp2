@@ -371,6 +371,23 @@ h1:hover {
 	
 }
 
+#order h2.Feat {
+	
+	font-family: Amaranth;
+	color: #22b9b9;
+	border-bottom: 3px #22b9b9 solid;
+	cursor: default;
+	
+}
+
+#order h2.Feat:hover {
+
+	color: #b9b922;
+	border-bottom: 3px #b9b922 solid;
+	cursor: default;
+	
+}
+
 /*CONTAINER FOR THE LEFT SIDE*/
 #left {
 	float: left;
