@@ -439,3 +439,15 @@ h1:hover {
 	opacity: 0.7;
 	
 }
+
+#container {
+
+	"columnWidth": 60;
+	
+}
+
+.item {
+
+width: 10%;
+	
+}
