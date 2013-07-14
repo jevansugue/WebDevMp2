@@ -8,7 +8,6 @@
     width: 15em;
     margin-left: 10px;
     float:left;
-
 	display: inline-block;
 }
 
@@ -16,7 +15,8 @@
 {
 
 	display: inline-block;
-	font-size: 19px;
+	font-size: 17px;
+	color: #24242B;
 }
 
 .frmInput
@@ -29,8 +29,8 @@
 
 .formContainer, .loginContainer
 {
-
-	height: 29em;
+	color: #24242B;
+	height: auto;
 	padding: .5em;
 	width: 31em;
 	display: inline-block;
