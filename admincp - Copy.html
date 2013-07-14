@@ -1,0 +1,218 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<link rel="stylesheet" href="CSS/style2.css" />
+<link rel="stylesheet" href="CSS/order.css" />
+<script type="text/javascript" src="JS/display_hide.js"></script>
+<script type="text/javascript" src="JS/input_val.js"></script>
+<link href='http://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet' type='text/css'>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>BLUEPRINT & GRAPHICS | ADMIN CONTROL PANEL</title>
+</head>
+
+<body>
+<div class="topbar">
+
+	<center>
+       
+       <img id="header" src="imgs/header1.png"/>
+       
+    </center>
+
+</div><!--END TOP BAR-->
+
+<!--START NAV-->
+
+<div id="nav">
+	<center>
+    	<a href="">HOME</a>
+        <a href="">ABOUT</a>
+        <a href="">ORDER</a>
+        <a href="">LOG OUT</a>
+    	<a href="">CONTROL PANEL</a>
+	</center>
+</div>
+
+<!--END NAV-->
+
+<!--START MAIN-->
+<div id="main">
+
+	<!--START ADMIN ID-->
+	<div id="admin">
+	
+    	<h1>ORDERS PANEL</h1>
+        <br /><br />
+        
+    	<!--START TABLES WITH ORDERS-->
+    		<center>
+    		<table cellspacing="5" border="" rules="rows">
+            
+            	<!--HEADINGS-->
+            	<tr>
+            		
+                    <td class="heading">&nbsp;</td>
+                    <td class="heading">FILES</td>
+                    <td class="heading">PAPER SIZE</td>
+                    <td class="heading">COPIES</td>
+                    <td class="heading">COLOUR</td>
+                    <td class="heading">ORIENTATION</td>
+                    <td class="heading">ORDER DATE</td>
+                    <td class="heading">DATE DUE</td>
+                    <td class="heading">STATUS</td>
+                        
+                </tr>
+            
+            	<!--CONTENTS-->
+                <tr>
+                	
+					<td class="heading">&nbsp;</td>
+                    <td class="info">essay1.doc</td>
+                    <td class="info">8x11 in.</td>
+                    <td class="info">1</td>
+                    <td class="info">black & white</td>
+                    <td class="info">portrait</td>
+                    <td class="info">07-13-2013</td>
+                    <td class="info">07-17-2013</td>
+					<td class="heading">&nbsp;</td>
+                
+                </tr>
+                
+                <tr>
+                	
+					<td class="heading">&nbsp;</td>
+                    <td class="info">essay1.doc</td>
+                    <td class="info">8x11 in.</td>
+                    <td class="info">1</td>
+                    <td class="info">black & white</td>
+                    <td class="info">portrait</td>
+                    <td class="info">07-13-2013</td>
+                    <td class="info">07-17-2013</td>
+					<td class="heading">&nbsp;</td>
+                
+                </tr>
+                
+                <tr>
+                	
+					<td class="heading">&nbsp;</td>
+                    <td class="info">essay1.doc</td>
+                    <td class="info">8x11 in.</td>
+                    <td class="info">1</td>
+                    <td class="info">black & white</td>
+                    <td class="info">portrait</td>
+                    <td class="info">07-13-2013</td>
+                    <td class="info">07-17-2013</td>
+					<td class="heading">&nbsp;</td>
+                
+                </tr>
+                
+            </table>
+    		</center>
+    	<!--END TABLES-->
+    
+    		<!--START ADMIN FUNCTIONS-->
+            
+			<br />
+            
+            
+			 
+			 <div id="admin-func">
+				<div class='uploadBar'>
+				 <table cellspacing="1" border="" rules="rows">
+					 <tr>
+						
+						<td class="info"><input type='file' class='uploadArea' required></td>
+						<td class="info">
+							<select>
+								<option select> </option>
+								<option> 8 x 11.5 </option>
+								<option> A4 </option>
+								<option> A3 </option>
+								<option> Long </option>
+							
+							</select>
+						
+						</td>
+						<td class="info">
+							<input type='number' value='0' class='nums' required />
+						</td>
+						<td class="info">
+						
+						<select>
+								<option select> </option>
+								<option> Black&White </option>
+								<option> Coloured</option>
+						</select>
+						
+						
+						
+						
+						</td>
+						<td class="info">
+						<select class='reduceWidth' >
+								<option select> </option>
+								<option> Portrait </option>
+								<option> Land Scape</option>
+						</select>
+						
+						</td>
+						<td class="info">
+						
+						
+						<input type='date' required />
+						
+						
+						</td>
+						<td class="info">
+						
+							<input type='submit'>
+						
+						</td>
+					
+					</tr>
+				 </table>
+				 </div>
+				
+			</div>
+			 
+			 
+		
+            
+            <!--END ADMIN FUNCTIONS-->
+    
+    		<span id="search" style="display: none">
+            
+            	<div id="search">
+            	SEARCH BY...
+                
+                	<center><table cellspacing="50" cellpadding="10">
+                    	<tr>
+                		
+                        <td>
+                        	<form name="ordnum">
+							ORDER NO.: <input type="text" required="required" name="orderno"></input>
+                            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;OR<br /><br />
+                            <center><input type="submit" value="Submit"></center>
+							</form>
+                        </td>
+                
+                		<td>
+                        	<form name="custName">
+                    		CUSTOMER NAME: <input type="text" required="required" name="custname"></input>
+                    		</form>
+                            <br />
+                            <center><input type="submit" value="Submit"></center>
+                        </td>
+                    </tr>
+                    </table></center>
+                
+            	</div>
+            </span>
+    
+    </div>
+	<!--END ADMIN ID-->
+    
+</div>
+<!--END MAIN-->
+</body>
+</html>
