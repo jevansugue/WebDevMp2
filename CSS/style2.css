@@ -39,51 +39,6 @@ body {
 	left: 0em;
 }
 
-#name {
-
-	color: white;
-	letter-spacing: 1px;
-	margin: 1em 0;
-	position: relative;
-}
-
-#and {
-
-	text-align: center;
-	font-size: 9em;
-	font-family: Intro;
-}
-
-/*#name td {
-	
-	text-align: center;
-	font-size: 1.5em;
-	width: 5em;
-	height: 5em;
-	padding: 0.5em;
-	margin: 0em 1em;
-	vertical-align: middle;
-	display: inline-block;
-}
-
-.blue {
-
-	background-color:#2ad8d8;
-	
-}
-
-.purple {
-
-	background-color:#d82ad8;
-	
-}
-
-.green {
-
-	background-color:#d8d82a;
-	
-	
-}*/
 
 /*LINKS*/
 
@@ -104,26 +59,25 @@ a:hover {
 
 	width: 100%;
 	height: 3em;
-	background-color: white;
-	color: black;
+	background-color: #24242B;
 	font-family: times;
-	font-size: 1em;
+	font-size: 0.9em;
 	letter-spacing: 3px;
 	text-transform: uppercase;
 	position: absolute;
 	left: 0em;
-	top: 19.8em;
-	border-bottom: 1px #ededed solid;
+	top: 15.8em;
+	border-top: 1px #edeaef solid;
+	color: white;
 
 }
 
 #navlinks {
 	text-align:center;
 	position: static;
-	min-width: 1000px;
-	padding: 0.8em 0em;
+	width: 81em;
+	padding: 1em 0em;
 	margin: 0em auto;
-	margin-top: -7em;
 	color: white;
 	
 }
@@ -136,8 +90,29 @@ a:hover {
 
 #navlinks a {
 
-	margin: 0em 4em;
+	height: 3em;
+	margin: 1em 4em;
+	padding: 1em;
+	color: white;
+	background-color: #24242B; 
+	-moz-transition: background-color 700ms linear;
+	-webkit-transition:  background-color 700ms linear;
+	-o-transition: background-color 700ms linear;
+	transition: background-color 700ms linear;
+}
 
+#navlinks a:hover {
+
+	color: #24242B;
+	background-color: white;
+	
+}
+
+#navlinks a:active {
+
+	color: #24242B;
+	background-color: white;
+	
 }
 
 /*MAIN*/
@@ -147,11 +122,12 @@ a:hover {
 	height: auto;
 	width: 65em;
 	left: 8.5em;
-	margin-top: 16.7em;
+	margin-top: 16.5em;
 	padding: 1em;
 	position: absolute;
 	border-left: 1px #ededed solid;
-	border-right: 1px #ededed solid;	
+	border-right: 1px #ededed solid;
+	z-index: 0;	
 }
 
 #header {
@@ -180,13 +156,15 @@ h1 {
 	display: inline-block;
 	font-weight: normal;
 	border-bottom: 3px #22b9b9 solid;
-
+	cursor: default;
+	
 }
 
 h1:hover {
 
 	color: #b9b922;
 	border-bottom: 3px #b9b922 solid;
+	cursor: default;
 
 }
 
@@ -232,6 +210,7 @@ h1:hover {
 
 #admin-func {
 
+	background-color: #24242B;
 	padding: 1em;
 	
 }
@@ -241,34 +220,37 @@ h1:hover {
 
 	padding: 0.3em;
 	font-family: Amaranth;
-	font-size: 12px;
+	font-size: 0.8em;
 	text-transform: uppercase;
 	font-weight: normal;
 	display: inline;
-	margin: 0em 0.5em;
+	margin: 0em 0.7em;
 	cursor: pointer;
-	
+	letter-spacing: 1px;
+	-moz-transition:opacity 0.5s ease-in-out 0s;
+	-webkit-transition:  opacity 0.5s ease-in-out 0s;
+	-o-transition:opacity 0.5s ease-in-out 0s;
+	transition:opacity 0.5s ease-in-out 0s;	
 }
 
 
 #admin a.purple {
 
-	color: #d82ad8;
+	color: white;
 	border-bottom: 2px #d82ad8 solid;
 	
 }
 
 #admin a.green {
 
-	color: #b9b922;
+	color: white;
 	border-bottom: 2px #b9b922 solid;
 	
 }
 
 #admin a.purple:hover, #admin a.green:hover {
 
-	color: #22b9b9;
-	border-bottom: 2px #22b9b9 solid; 
+	opacity: 0.85;
 	
 }
 
